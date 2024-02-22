@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="subdiv-two">
+            <div class="datadiv">
+                <div class="headingdiv">
+                   <a href="/"><button class="btnss">  Back </button> </a> 
+                    <h2 class="pllllllt">Apollo Patients List</h2>
+                </div>
+               
+                
+                    <p class="parrrgrp">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+               
+                    <div class="headflex">
+                        <h4>Patients Name</h4>
+                        <h4>Patients Number</h4>
+                        <h4>Patients Time</h4>
+
+                    </div>
+                <ol >
+                    <% users.map ((mydata)=>{ %>
+                        
+                     <div class=" dataflex">
+                        <li class="thete"><%= mydata.firstname %>  </li>
+                        <p class="thete"><%= mydata.number %></p>
+                        <p class="thete"><%= mydata.ptime%></p>
+                     </div>
+                     
+                        
+                     <%  }) %>
+                </ol>
+                
+            </div>
+            
+        </div>
+
+    </div>
+   
+    
+
+    
+
+    
+    
+</body>
+</html>

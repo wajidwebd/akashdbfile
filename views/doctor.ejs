@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainbg">
+        <div class="subdiv">
+            <form action="/api/users" method="post">
+                <div class="fdiv">
+                    <div>
+                        <span class="txt">Full Name*</span><br>
+                        <input type="text" name="firstname" placeholder="FullName" class="inp"><br>
+                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div>
+                        <span class="txt">Phone number*</span><br>
+                    <input type="text" name="number" placeholder="Phone Number" class="inp" >
+
+                    </div>
+                    
+                    
+            
+                </div>
+                
+        
+                <div class="twoinput">
+                    <span class="atxt">Choose your Appointment time*</span><br>
+                    <div class="rad">
+                        <input type="radio" value="5pm to 6pm" name="ptime" >&nbsp;<label class="ddwwss" >5 pm to 6 pm</label>&nbsp;&nbsp;
+                        <input type="radio" value="6pm to 7pm" name="ptime" >&nbsp;<label  class="ddwwss">6 pm to 7 pm</label>&nbsp;&nbsp;
+                        <input type="radio" value="7pm to 8pm" name="ptime" >&nbsp;<label class="ddwwss">7 pm to 8 pm</label>
+                    </div>
+                   
+                </div>
+             <button type="submit" class="btn" >Book Appointment</button>
+            </form>
+        </div>
+
+        
+        
+    </div>
+    
+
+   
+</body>
+</html>
